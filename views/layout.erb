@@ -10,11 +10,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="img/two.jpg"/>
+					<img src="img/<%= yield_content :img_key %>.jpg">
 				</div>
 				<div class="col-md-6">
 					<div class="main">
-						<h1>"The interval of time between birth and death."</h1>
+						<h1> <%= yield_content :text_key %> </h1>
 					</div>
 				</div>
 			</div>
